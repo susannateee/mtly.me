@@ -1,0 +1,30 @@
+{
+  "name": "mtly.me",
+  "version": "1.0.0",
+  "description": "motley.fi URL shortener",
+  "main": "index.js",
+  "baseUrl": "https://mtly.me",
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motleyagency/mtly.me.git"
+  },
+  "keywords": [
+    "motley",
+    "mtly",
+    "url",
+    "shortener",
+    "netlify"
+  ],
+  "author": "Pete Nykänen <pete@motley.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motleyagency/mtly.me/issues"
+  },
+  "homepage": "https://github.com/motleyagency/mtly.me#readme",
+  "dependencies": {
+    "netlify-shortener": "^1.0.3"
+  }
+}
